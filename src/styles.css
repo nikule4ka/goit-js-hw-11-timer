@@ -9,12 +9,44 @@ html {
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
-    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
   /*
    * CSS image reference example.
    */
-  background-image: url('./images/bg-pattern.png');
+}
+
+#header-title {
+  margin-top: 30px;
+  text-align: center;
+  text-shadow: -2px -2px 5px rgb(182, 117, 117);
+  color: #8e0000;
+}
+
+.timer {
+  margin: 100px auto;
+  margin-top: 30px;
+  display: flex;
+  flex-flow: row;
+  width: 600px;
+  justify-content: space-between;
+
+  border: 2px solid #8e0000;
+  box-shadow: 0 2px 4px 0 rgba(133, 54, 54, 0.2),
+    0 6px 20px 0 rgba(73, 29, 29, 0.19);
+  border-radius: 6px;
+  padding: 100px;
+}
+
+.timer div {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  border: 2px solid #8e0000;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px 0 rgba(133, 54, 54, 0.2),
+    0 6px 20px 0 rgba(73, 29, 29, 0.19);
 }
