@@ -7,7 +7,8 @@
     "start": "webpack-dev-server --env.mode development --config ./webpack/config.js",
     "build": "webpack --env.mode production --config ./webpack/config.js",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "prettier": "prettier --single-quote --use-tabs --trailing-comma es5 --write \"src/**/*.js\""
   },
   "repository": {
     "type": "git",
@@ -39,6 +40,7 @@
     "node-sass": "^4.14.1",
     "optimize-css-assets-webpack-plugin": "^5.0.4",
     "postcss-loader": "^4.0.2",
+    "prettier": "^2.2.1",
     "sass-loader": "^10.0.2",
     "style-loader": "^1.2.1",
     "url-loader": "^4.1.0",
